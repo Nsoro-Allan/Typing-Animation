@@ -11,7 +11,6 @@ body {
 
 .container {
     padding: 10px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,14 +18,14 @@ body {
 }
 
 .text {
-    border-right: 2px solid #fff;
+    border-right: 3px solid #fff;
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     white-space: nowrap;
     overflow: hidden;
     width: 0; /* Start with a width of 0 */
-    animation: typing 5s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+    animation: typing 8s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -34,7 +33,7 @@ body {
         width: 0;
     }
     to {
-        width: 30%;
+        width: 34%;
     }
 }
 
