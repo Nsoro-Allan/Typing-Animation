@@ -14,13 +14,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 40vh;
 }
 
 .text {
     border-right: 3px solid #fff;
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     white-space: nowrap;
     overflow: hidden;
@@ -33,7 +33,7 @@ body {
         width: 0;
     }
     to {
-        width: 34%;
+        width: 55%;
     }
 }
 
@@ -44,4 +44,14 @@ body {
     50% {
         border-color: #fff;
     }
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
 }
