@@ -25,7 +25,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     width: 0; /* Start with a width of 0 */
-    animation: typing 3s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+    animation: typing 8s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
@@ -54,4 +54,18 @@ body {
     text-align: center;
     color: #fff;
     font-size: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.content p{
+    padding: 15px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    width: 50%;
+    text-align: left;
+    line-height: 24px;
 }
